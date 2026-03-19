@@ -1,0 +1,11 @@
+String : String manipulation refers to the process of modifying or manupulating text data in program. This can involve tasks like combining strings, extracting specific portions of text, changing the case of letters, replacing certain characters and much more.
+
+i) Concatenation (+) :
+ii) Length (len())
+iii) Uppercase and lowercase (str.upper() and str.lower)
+iv) Replace (str.replace())
+v) Split (str.split())
+vi) Join (str.join())
+vii) Strip (str.strip())
+viii) Checking for substring(using in Keyword)
+
