@@ -7,4 +7,13 @@ def gcd(a, b):
 x = int(input("Enter first number: "))
 y = int(input("Enter second number: "))
 
-print("GCD:", gcd(x, y))
+
+#using recurive
+def gcd_recursive(a, b):
+    if b == 0:
+        return a
+    
+    print(f"b={b},   a % b={ a % b}")
+    return gcd_recursive(b, a % b)
+
+print("GCD:", gcd_recursive(x, y))
